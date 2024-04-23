@@ -32,6 +32,8 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
    we need to check the (target-x) is present in hasmap if yes, then return indices of
    x and hasmap key corresponding value, else store the value of x and its indices in hasmap
    below is the solution.
+
+  // link for ref - https://leetcode.com/problems/two-sum/description/
 */
 
 var twoSum = function(nums,target) {
